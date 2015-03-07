@@ -38,6 +38,10 @@
 |
 */
 
+$route['auteur/cherche/(:any)'] = 'auteur_controller/cherche/$1'; 
+$route['auteur/(:any)'] = 'auteur_controller/$1'; 
+
+
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
